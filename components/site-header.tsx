@@ -20,7 +20,7 @@ function isPrimaryActive(pathname: string, href: string) {
 }
 
 export function SiteHeader() {
-  const pathname = usePathname();
+  const pathname = usePathname() ?? "";
   const showProductNav =
     pathname === "/products" || pathname.startsWith("/products/");
   const mobileNav = showProductNav

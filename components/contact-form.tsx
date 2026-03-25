@@ -20,7 +20,7 @@ const initialContactForm: ContactFormState = {
   message: ""
 };
 
-const CONTACT_API_URL = "http://localhost:5000/contact";
+const CONTACT_API_URL = "/api/contact";
 
 const getPhoneDigits = (value: string) => value.replace(/\D/g, "");
 const hasValidPhoneCharacters = (value: string) => /^[+]?[0-9()\s-]+$/.test(value);
@@ -107,8 +107,10 @@ export function ContactForm() {
         body: JSON.stringify(trimmedForm)
       });
 
-      const rawResponse = await response.text();
-      const result = (rawResponse ? JSON.parse(rawResponse) : {}) as {
+      const contentType = response.headers.get("content-type");
+      const result = (contentType?.includes("application/json")
+        ? await response.json()
+        : {}) as {
         success?: boolean;
         message?: string;
         errors?: FormErrors;
@@ -126,9 +128,7 @@ export function ContactForm() {
       setSubmitStatus("success");
     } catch {
       setErrors({});
-      setSubmitMessage(
-        "Could not connect to the backend. Please make sure http://localhost:5000/contact is running."
-      );
+      setSubmitMessage("Could not submit your inquiry right now. Please try again.");
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);

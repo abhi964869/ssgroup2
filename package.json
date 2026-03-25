@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "backend:dev": "npm --prefix backend run dev",
-    "backend:start": "npm --prefix backend run start",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -13,6 +11,7 @@
   "dependencies": {
     "motion": "12.23.13",
     "next": "15.5.14",
+    "nodemailer": "^6.10.1",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
