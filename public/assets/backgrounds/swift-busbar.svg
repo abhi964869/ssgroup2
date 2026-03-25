@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#05070B"/>
+  <rect x="132" y="188" width="1336" height="524" rx="40" fill="#0C121B" stroke="#1F3149"/>
+  <g opacity=".88">
+    <rect x="228" y="286" width="1046" height="44" rx="22" fill="#C98D53"/>
+    <rect x="228" y="392" width="1046" height="44" rx="22" fill="#D3C05D"/>
+    <rect x="228" y="498" width="1046" height="44" rx="22" fill="#2C7EEB"/>
+    <rect x="228" y="604" width="1046" height="44" rx="22" fill="#1B1F28"/>
+  </g>
+  <g opacity=".78">
+    <circle cx="334" cy="308" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="334" cy="414" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="334" cy="520" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="334" cy="626" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="616" cy="308" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="616" cy="414" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="616" cy="520" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="616" cy="626" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="898" cy="308" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="898" cy="414" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="898" cy="520" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="898" cy="626" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="1180" cy="308" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="1180" cy="414" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="1180" cy="520" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+    <circle cx="1180" cy="626" r="16" fill="#0E1623" stroke="#EFF4FF"/>
+  </g>
+  <path d="M1288 286H1428V648H1288" stroke="#43BAFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1298 332H1428" stroke="#43BAFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1298 438H1428" stroke="#35D18A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1298 544H1428" stroke="#43BAFF" stroke-width="4" stroke-linecap="round"/>
+  <defs/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#05070A"/>
+  <circle cx="508" cy="448" r="216" fill="#0E1725" stroke="#20324A"/>
+  <circle cx="508" cy="448" r="146" fill="#09111B" stroke="#29496F"/>
+  <circle cx="508" cy="448" r="78" fill="#071018" stroke="#43BAFF" stroke-width="3"/>
+  <path d="M430 238L566 238L624 310L624 586L566 658H430L372 586V310L430 238Z" stroke="#C98D53" stroke-width="3" stroke-dasharray="10 16"/>
+  <g opacity=".78">
+    <rect x="870" y="220" width="238" height="468" rx="26" fill="#0E1726" stroke="#243955"/>
+    <rect x="1144" y="266" width="186" height="378" rx="24" fill="#101A2A" stroke="#243955"/>
+    <rect x="1348" y="314" width="114" height="286" rx="18" fill="#0F1726" stroke="#243955"/>
+  </g>
+  <g opacity=".84" stroke-linecap="round">
+    <path d="M720 448H1378" stroke="url(#shaft)" stroke-width="4"/>
+    <path d="M970 268V640" stroke="#35D18A" stroke-width="3" stroke-dasharray="6 16"/>
+    <path d="M1240 314V598" stroke="#43BAFF" stroke-width="3" stroke-dasharray="6 16"/>
+  </g>
+  <defs>
+    <linearGradient id="shaft" x1="720" x2="1378" y1="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C98D53" stop-opacity=".18"/>
+      <stop offset=".5" stop-color="#C98D53"/>
+      <stop offset="1" stop-color="#43BAFF" stop-opacity=".25"/>
+    </linearGradient>
+  </defs>
+</svg>

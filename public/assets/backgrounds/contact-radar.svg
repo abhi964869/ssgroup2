@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#05070A"/>
+  <g opacity=".2" stroke="#173A67">
+    <path d="M150 150H1450"/>
+    <path d="M150 300H1450"/>
+    <path d="M150 450H1450"/>
+    <path d="M150 600H1450"/>
+    <path d="M150 750H1450"/>
+    <path d="M230 80V820"/>
+    <path d="M520 80V820"/>
+    <path d="M810 80V820"/>
+    <path d="M1100 80V820"/>
+    <path d="M1390 80V820"/>
+  </g>
+  <circle cx="1212" cy="472" r="224" stroke="#204B7C" stroke-width="2"/>
+  <circle cx="1212" cy="472" r="156" stroke="#43BAFF" stroke-width="3"/>
+  <circle cx="1212" cy="472" r="90" stroke="#35D18A" stroke-width="2" stroke-dasharray="10 18"/>
+  <path d="M1212 472L1398 322" stroke="url(#sweep)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M256 642C410 594 520 456 728 456C930 456 1018 604 1212 604" stroke="url(#contactLine)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="728" cy="456" r="10" fill="#43BAFF"/>
+  <circle cx="1212" cy="604" r="10" fill="#35D18A"/>
+  <defs>
+    <linearGradient id="sweep" x1="1212" x2="1398" y1="472" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43BAFF"/>
+      <stop offset="1" stop-color="#43BAFF" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="contactLine" x1="256" x2="1212" y1="610" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D18A" stop-opacity=".08"/>
+      <stop offset=".55" stop-color="#43BAFF"/>
+      <stop offset="1" stop-color="#35D18A" stop-opacity=".14"/>
+    </linearGradient>
+  </defs>
+</svg>

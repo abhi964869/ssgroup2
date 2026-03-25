@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#05070A"/>
+  <rect x="96" y="252" width="1408" height="396" rx="36" fill="#0D131D" stroke="#1F3046"/>
+  <g opacity=".62">
+    <rect x="132" y="292" width="282" height="316" rx="20" fill="#0E1726" stroke="#223854"/>
+    <rect x="432" y="292" width="282" height="316" rx="20" fill="#0F1829" stroke="#223854"/>
+    <rect x="732" y="292" width="282" height="316" rx="20" fill="#101A2B" stroke="#223854"/>
+    <rect x="1032" y="292" width="282" height="316" rx="20" fill="#111B2E" stroke="#223854"/>
+    <rect x="1332" y="292" width="136" height="316" rx="20" fill="#10182A" stroke="#223854"/>
+  </g>
+  <g opacity=".65" stroke-linecap="round">
+    <path d="M165 450H1430" stroke="#17355B" stroke-width="4"/>
+    <path d="M220 220V680" stroke="#43BAFF" stroke-width="3" stroke-dasharray="4 14"/>
+    <path d="M520 220V680" stroke="#43BAFF" stroke-width="3" stroke-dasharray="4 14"/>
+    <path d="M820 220V680" stroke="#43BAFF" stroke-width="3" stroke-dasharray="4 14"/>
+    <path d="M1120 220V680" stroke="#43BAFF" stroke-width="3" stroke-dasharray="4 14"/>
+    <path d="M1410 220V680" stroke="#35D18A" stroke-width="3" stroke-dasharray="4 14"/>
+  </g>
+  <circle cx="1368" cy="450" r="110" fill="url(#nodeGlow)"/>
+  <defs>
+    <radialGradient id="nodeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1368 450) rotate(90) scale(110)">
+      <stop stop-color="#35D18A" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#35D18A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
