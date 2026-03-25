@@ -1,7 +1,0 @@
-[server] Backend running on http://localhost:5000
-[contact] Request received {
-  name: 'Backend Test',
-  phone: '9999999999',
-  email: 'subhamssgroup95@gmail.com'
-}
-[mail] Email sent to shubham@amcssgroup.com. Message ID: <2144f2af-3cb2-e6f2-e5db-e9c21001f521@gmail.com>

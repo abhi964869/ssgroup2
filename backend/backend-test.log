@@ -1,5 +1,0 @@
-[server] Backend running on http://localhost:5000
-[contact] Request received { name: '', phone: '', email: '' }
-[contact] Request received { name: 'Test User', phone: '9876543210', email: 'test@example.com' }
-[contact] Request received { name: 'Test User', phone: '9876543210', email: 'test@example.com' }
-[contact] Request received { name: 'Test User', phone: '9876543210', email: 'test@example.com' }
